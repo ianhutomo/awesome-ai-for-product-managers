@@ -2,7 +2,7 @@
 
 A curated, opinionated list of AI tools, workflows, and references for product managers who want practical leverage without turning their roadmap into demo theater.
 
-> Status: draft repo prepared by TARS for Ian review. Not yet published to GitHub because GitHub CLI is not authenticated on this Mac mini.
+> Status: published draft maintained by TARS from Ian’s AI-for-PM bookmarks and ongoing curation.
 
 ## Principles
 
@@ -33,6 +33,9 @@ A curated, opinionated list of AI tools, workflows, and references for product m
 - [Hugging Face Tasks](https://huggingface.co/tasks) — Good map of model capabilities and task categories.
 - [OpenAI Cookbook](https://github.com/openai/openai-cookbook) — Practical examples for prompting, evals, structured outputs, RAG, and tool use.
 - [Anthropic Cookbook](https://github.com/anthropics/anthropic-cookbook) — Useful Claude examples for tool use, evaluation, and agentic workflows.
+- [AI Engineering from Scratch](https://aiengineeringfromscratch.com/) — Practical AI engineering curriculum; useful for PMs who need to understand how LLM apps, RAG, evals, and deployment pieces fit together.
+- [Sophon AI Papers](https://sophon.at/papers) — Trending AI papers feed for scanning research shifts without living on arXiv.
+- [Nate Berkopec — Thoughts on LLMs, May 2026](https://x.com/nateberkopec/status/2058014104854626490) — Opinionated industry read on current LLM capabilities and product implications.
 
 ## Strategy & discovery
 
@@ -40,6 +43,7 @@ A curated, opinionated list of AI tools, workflows, and references for product m
 - Perplexity — Useful for sourced market scans and quick landscape mapping. Verify sources before decisions.
 - NotebookLM — Strong for grounding answers in a defined corpus of docs, interviews, reports, or meeting notes.
 - Exa / Tavily / Firecrawl — Developer-facing search/scrape primitives for PM research agents and internal knowledge workflows.
+- [The Stanford STORM Method](https://x.com/heynavtoor/status/2067194761446920264) — Research workflow pattern for turning a broad topic into grounded outlines, questions, and synthesis.
 
 ## User research
 
@@ -54,6 +58,7 @@ A curated, opinionated list of AI tools, workflows, and references for product m
 - Cursor / Claude Code / Codex — Useful when specs touch code, APIs, repo structure, or implementation constraints.
 - Linear AI / Jira AI — Ticket hygiene, summaries, and acceptance criteria; best when humans still own prioritization.
 - TARS Social/Spec/Strategy Writer skills — Local skill pattern for repeatable writing workflows with Ian’s voice and quality bar.
+- [/goal + Loss Functions: Distill a Product in 30 Hours](https://x.com/elvissun/status/2065035615800864954) — Prompt/playbook framing for moving from product intent to concrete working artifacts.
 
 ## Analytics & experiments
 
@@ -67,6 +72,9 @@ A curated, opinionated list of AI tools, workflows, and references for product m
 - Figma AI — Early ideation and design ops; evaluate outputs carefully.
 - v0 / Bolt / Lovable — Fast UI prototypes for concept testing, not production source of truth.
 - Claude / GPT-4o vision / Gemini vision — Screenshot critique, heuristic review, flow analysis.
+- [Codex Sites](https://x.com/TheRohanVarma/status/2061872164442403139) — Example of code agents moving from implementation to shareable deployed prototypes for non-technical stakeholders.
+- [Interface Craft](https://interfacecraft.dev/) — Curated design skills and references for raising the taste bar on AI-generated interfaces.
+- [Animated onboarding from screenshots](https://x.com/bidah/status/2053071057737679138) — Claude skill pattern for turning product screenshots into onboarding videos and conversion assets.
 
 ## Engineering collaboration
 
@@ -74,12 +82,16 @@ A curated, opinionated list of AI tools, workflows, and references for product m
 - Cursor — Codebase Q&A and implementation exploration.
 - Sourcegraph Cody — Code intelligence for larger repos.
 - OpenAPI + LLM workflows — Turn API specs into PM-readable capability maps and edge-case checklists.
+- [Using Claude Code: The Unreasonable Effectiveness of HTML](https://x.com/trq212/status/2052809885763747935) — Pattern for asking agents to produce inspectable HTML artifacts instead of walls of markdown.
+- [Implementation notes prompt](https://x.com/trq212/status/2056415973125796184) — Lightweight way to make coding agents document assumptions, tradeoffs, and changes while implementing a spec.
+- [A harness for every task](https://x.com/trq212/status/2061907337154367865) — Anthropic-style framing for dynamic workflows where agents build task-specific scaffolding.
 
 ## Go-to-market and comms
 
 - Claude / ChatGPT — Positioning, launch notes, FAQs, customer emails, sales enablement drafts.
 - Canva AI / Figma AI — Lightweight visuals; beware generic output.
 - Descript / CapCut / OpusClip — Video editing and repurposing for launches and product education.
+- [How to build your content system with AI](https://x.com/shannholmberg/status/2053399704499859757) — Example architecture for an AI-assisted content loop that finds ideas, drafts, publishes, and learns.
 
 ## Agent systems for PMs
 
@@ -87,6 +99,9 @@ A curated, opinionated list of AI tools, workflows, and references for product m
 - OpenClaw — Local autonomous agent runtime with tools, memory, browser, cron, and approval boundaries.
 - Claude Code / Codex CLI — Code-aware agents for repo tasks, investigation, and structured implementation.
 - n8n / Zapier / Make — Product ops automation; useful for structured workflows, less ideal for judgment-heavy work.
+- [Autoloops > Agent Loops](https://x.com/meta_alchemist/status/2063999438050455870) — Guide to self-improving agent loops; useful for PMs designing repeatable AI workflows, not one-shot prompts.
+- [How to build your own agent harness](https://x.com/mfpiccolo/status/2060069083878408689) — Explains harness choices and tradeoffs across agent frameworks.
+- [Stop building Foxconn factories for your agents](https://x.com/garrytan/status/2061454423034110372) — Useful critique of over-orchestrated agent workflows and where human-in-the-loop leverage matters.
 
 ## Quality, safety, and evaluation
 
@@ -94,6 +109,8 @@ A curated, opinionated list of AI tools, workflows, and references for product m
 - OpenAI Evals / inspect-style eval harnesses — Useful when AI becomes part of a product workflow.
 - Human review gates — Still the best “tool” for public posts, customer-impacting changes, legal/medical/financial advice, and account actions.
 - Privacy checklist — Never upload customer/user data to tools without confirming policy, DPA, retention, and team approval.
+- [Claude Code self-check loops](https://x.com/ClaudeDevs/status/2061900434722496604) — Example of encoding manual review checks so an agent verifies its work before handoff.
+- [Claude Code deny rules for secrets](https://x.com/0x_rody/status/2059930796488524061) — Practical reminder that agent tooling needs explicit data-access boundaries and secret-protection rules.
 
 ## Post ideas
 
