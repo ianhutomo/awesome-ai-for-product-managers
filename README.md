@@ -85,6 +85,7 @@ A curated, opinionated list of AI tools, workflows, and references for product m
 - [Using Claude Code: The Unreasonable Effectiveness of HTML](https://x.com/trq212/status/2052809885763747935) — Pattern for asking agents to produce inspectable HTML artifacts instead of walls of markdown.
 - [Implementation notes prompt](https://x.com/trq212/status/2056415973125796184) — Lightweight way to make coding agents document assumptions, tradeoffs, and changes while implementing a spec.
 - [A harness for every task](https://x.com/trq212/status/2061907337154367865) — Anthropic-style framing for dynamic workflows where agents build task-specific scaffolding.
+- [Two-model coding workflow](https://x.com/kirillk_web3/status/2067302748970782920) — Cost-control pattern for routing coding-agent work between premium and cheaper models without losing review discipline.
 
 ## Go-to-market and comms
 
@@ -102,6 +103,7 @@ A curated, opinionated list of AI tools, workflows, and references for product m
 - [Autoloops > Agent Loops](https://x.com/meta_alchemist/status/2063999438050455870) — Guide to self-improving agent loops; useful for PMs designing repeatable AI workflows, not one-shot prompts.
 - [How to build your own agent harness](https://x.com/mfpiccolo/status/2060069083878408689) — Explains harness choices and tradeoffs across agent frameworks.
 - [Stop building Foxconn factories for your agents](https://x.com/garrytan/status/2061454423034110372) — Useful critique of over-orchestrated agent workflows and where human-in-the-loop leverage matters.
+- [Ponytail](https://github.com/DietrichGebert/ponytail) — Claude Code skill that nudges agents toward simpler diffs; useful as a benchmarkable “less code” product-building constraint.
 
 ## Quality, safety, and evaluation
 
