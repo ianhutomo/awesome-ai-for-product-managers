@@ -98,12 +98,14 @@ A curated, opinionated list of AI tools, workflows, and references for product m
 
 - [Garry Tan — gstack](https://github.com/garrytan/gstack) — Opinionated agent/memory/workflow stack direction. Relevant as a benchmark for PM agent systems and durable memory.
 - OpenClaw — Local autonomous agent runtime with tools, memory, browser, cron, and approval boundaries.
+- [Claude on a Mac Mini: the second brain that builds itself](https://x.com/gippp69/status/2069068377574776987) — Concrete always-on agent loop pattern for turning saved media, articles, and notes into a local research system.
 - Claude Code / Codex CLI — Code-aware agents for repo tasks, investigation, and structured implementation.
 - n8n / Zapier / Make — Product ops automation; useful for structured workflows, less ideal for judgment-heavy work.
 - [Autoloops > Agent Loops](https://x.com/meta_alchemist/status/2063999438050455870) — Guide to self-improving agent loops; useful for PMs designing repeatable AI workflows, not one-shot prompts.
 - [How to build your own agent harness](https://x.com/mfpiccolo/status/2060069083878408689) — Explains harness choices and tradeoffs across agent frameworks.
 - [Stop building Foxconn factories for your agents](https://x.com/garrytan/status/2061454423034110372) — Useful critique of over-orchestrated agent workflows and where human-in-the-loop leverage matters.
 - [Ponytail](https://github.com/DietrichGebert/ponytail) — Claude Code skill that nudges agents toward simpler diffs; useful as a benchmarkable “less code” product-building constraint.
+- [Your AI's Memory Is Quietly Making It Dumber](https://x.com/mvanhorn/status/2070966613994795489) — Argument for keeping always-loaded agent memory small, moving lessons into versioned skills, and using retrieval for everything else.
 
 ## Quality, safety, and evaluation
 
@@ -113,6 +115,7 @@ A curated, opinionated list of AI tools, workflows, and references for product m
 - Privacy checklist — Never upload customer/user data to tools without confirming policy, DPA, retention, and team approval.
 - [Claude Code self-check loops](https://x.com/ClaudeDevs/status/2061900434722496604) — Example of encoding manual review checks so an agent verifies its work before handoff.
 - [Claude Code deny rules for secrets](https://x.com/0x_rody/status/2059930796488524061) — Practical reminder that agent tooling needs explicit data-access boundaries and secret-protection rules.
+- [From Localhost to Launched: Safely Shipping Apps That Anyone Can Build](https://engineering.block.xyz/blog/from-localhost-to-launched-safely-shipping-apps-that-anyone-can-build) — Block’s platform pattern for letting non-engineers ship AI-generated internal tools with SSO, secrets, and data-access guardrails.
 
 ## Post ideas
 
