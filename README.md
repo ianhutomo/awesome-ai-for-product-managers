@@ -106,6 +106,8 @@ A curated, opinionated list of AI tools, workflows, and references for product m
 - [Stop building Foxconn factories for your agents](https://x.com/garrytan/status/2061454423034110372) — Useful critique of over-orchestrated agent workflows and where human-in-the-loop leverage matters.
 - [Ponytail](https://github.com/DietrichGebert/ponytail) — Claude Code skill that nudges agents toward simpler diffs; useful as a benchmarkable “less code” product-building constraint.
 - [Your AI's Memory Is Quietly Making It Dumber](https://x.com/mvanhorn/status/2070966613994795489) — Argument for keeping always-loaded agent memory small, moving lessons into versioned skills, and using retrieval for everything else.
+- [June](https://www.opensoftware.co/june) — Local-first Mac AI workspace with an agent, voice dictation, meeting notes, and privacy-preserving model routing; useful benchmark for personal PM agent UX and data-boundary choices.
+- [Matt Pocock — Skills](https://github.com/mattpocock/skills) — Composable agent skills for alignment, triage, shared language, and repeatable engineering workflows; useful pattern library for PM-to-agent collaboration.
 
 ## Quality, safety, and evaluation
 
