@@ -82,6 +82,7 @@ A curated, opinionated list of AI tools, workflows, and references for product m
 - Cursor — Codebase Q&A and implementation exploration.
 - Sourcegraph Cody — Code intelligence for larger repos.
 - OpenAPI + LLM workflows — Turn API specs into PM-readable capability maps and edge-case checklists.
+- [Interactive workflow map prompt](https://x.com/DaveJ/status/2054085519642931466) — Prompt pattern for turning app packages, components, and user actions into an explorable single-page HTML workflow map.
 - [Using Claude Code: The Unreasonable Effectiveness of HTML](https://x.com/trq212/status/2052809885763747935) — Pattern for asking agents to produce inspectable HTML artifacts instead of walls of markdown.
 - [Implementation notes prompt](https://x.com/trq212/status/2056415973125796184) — Lightweight way to make coding agents document assumptions, tradeoffs, and changes while implementing a spec.
 - [A harness for every task](https://x.com/trq212/status/2061907337154367865) — Anthropic-style framing for dynamic workflows where agents build task-specific scaffolding.
