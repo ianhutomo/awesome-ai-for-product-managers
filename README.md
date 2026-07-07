@@ -109,6 +109,8 @@ A curated, opinionated list of AI tools, workflows, and references for product m
 - [Your AI's Memory Is Quietly Making It Dumber](https://x.com/mvanhorn/status/2070966613994795489) — Argument for keeping always-loaded agent memory small, moving lessons into versioned skills, and using retrieval for everything else.
 - [June](https://www.opensoftware.co/june) — Local-first Mac AI workspace with an agent, voice dictation, meeting notes, and privacy-preserving model routing; useful benchmark for personal PM agent UX and data-boundary choices.
 - [Matt Pocock — Skills](https://github.com/mattpocock/skills) — Composable agent skills for alignment, triage, shared language, and repeatable engineering workflows; useful pattern library for PM-to-agent collaboration.
+- [You don't have a context problem. You have a harness problem](https://x.com/S_BatMan/status/2073518052923301907) — Argument that agent scaffolds, feedback loops, and task harnesses often matter more than raw context size or model choice.
+- [Getting started with loops](https://x.com/ClaudeDevs/status/2074208949205881033) — Primer on turning one-shot coding-agent prompts into repeatable loops with checks, reviews, and iteration.
 
 ## Quality, safety, and evaluation
 
@@ -119,6 +121,7 @@ A curated, opinionated list of AI tools, workflows, and references for product m
 - [Claude Code self-check loops](https://x.com/ClaudeDevs/status/2061900434722496604) — Example of encoding manual review checks so an agent verifies its work before handoff.
 - [Claude Code deny rules for secrets](https://x.com/0x_rody/status/2059930796488524061) — Practical reminder that agent tooling needs explicit data-access boundaries and secret-protection rules.
 - [From Localhost to Launched: Safely Shipping Apps That Anyone Can Build](https://engineering.block.xyz/blog/from-localhost-to-launched-safely-shipping-apps-that-anyone-can-build) — Block’s platform pattern for letting non-engineers ship AI-generated internal tools with SSO, secrets, and data-access guardrails.
+- [Verbalizable Representations Form a Global Workspace in Language Models](https://transformer-circuits.pub/2026/workspace/index.html) — Anthropic interpretability paper on auditing and shaping active model representations; useful context for PMs thinking about model trust and evaluation limits.
 
 ## Post ideas
 
